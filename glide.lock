@@ -1,0 +1,31 @@
+hash: 672e9042272f87e7bd697d9a70128f10927c5c464421470fd607bf1c052faa03
+updated: 2018-12-13T13:24:38.833198-06:00
+imports:
+- name: github.com/anthonyheidenreich/gadget
+  version: 995541877f460be1c9cb3329b7fbadeaeb23a102
+  subpackages:
+  - generator
+  - log
+- name: github.com/go-stack/stack
+  version: 2fee6af1a9795aafbe0253a0cfbdf668e1fb8a9a
+- name: github.com/google/uuid
+  version: 9b3b1e0f5f99ae461456d768e7d301a7acdaa2d8
+- name: github.com/Kasita-Inc/gadget
+  version: 0e8bfdb3d7bf5a7cfd5f77bb390e556c0a601c88
+  subpackages:
+  - collection
+  - errors
+  - log
+testImports:
+- name: github.com/davecgh/go-spew
+  version: d8f796af33cc11cb798c1aaeb27a4ebc5099927d
+  subpackages:
+  - spew
+- name: github.com/pmezard/go-difflib
+  version: 792786c7400a136282c1664665ae0a8db921c6c2
+  subpackages:
+  - difflib
+- name: github.com/stretchr/testify
+  version: f35b8ab0b5a2cef36673838d662e249dd9c94686
+  subpackages:
+  - assert

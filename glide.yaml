@@ -1,0 +1,10 @@
+package: github.com/anthonyheidenreich/go-embed
+import:
+- package: github.com/Kasita-Inc/gadget
+  subpackages:
+  - log
+testImport:
+- package: github.com/stretchr/testify
+  version: ^1.2.2
+  subpackages:
+  - assert
